@@ -1,0 +1,37 @@
+# 配置和密钥
+config.sh
+*.key
+.env
+
+# 运行时数据
+*.log
+*.pid
+data/
+inbox.jsonl
+raw.jsonl
+pending.jsonl
+session.txt
+wake.json
+
+# 模型（几百 MB，自己下）
+models/
+*.bin
+*.gguf
+
+# 依赖
+node_modules/
+package-lock.json
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 分身运行时
+another-me/chatlog.jsonl
+another-me/logs/
+another-me/tools.log
+another-me/usage.jsonl
+another-me/*.bak*
+another-me/identity.md
+another-me/stance.md
+another-me/config.json

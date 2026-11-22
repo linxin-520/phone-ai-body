@@ -1,0 +1,34 @@
+{
+  "name": "另一个我",
+  "callName": "用户",
+  "selfName": "我",
+  "default": "ds",
+  "models": [
+    {
+      "id": "ds",
+      "label": "DeepSeek",
+      "baseURL": "https://api.deepseek.com/chat/completions",
+      "model": "deepseek-chat",
+      "keyName": "DEEPSEEK_API_KEY"
+    }
+  ],
+  "maxTokens": 1400,
+  "temperature": 0.65,
+  "sttEnabled": true,
+  "sttEngine": "auto",
+  "sttCommand": "",
+  "sttModel": "small",
+  "sttTimeoutMs": 60000,
+  "sttLanguage": "zh",
+  "sttPrompt": "以下是普通话简体中文的聊天语音：",
+  "sttThreads": 6,
+  "limits": {
+    "identityChars": 6000,
+    "stanceChars": 5000,
+    "caseCount": 6,
+    "caseChars": 700,
+    "streamDays": 10,
+    "streamCount": 40,
+    "historyCount": 120
+  }
+}
